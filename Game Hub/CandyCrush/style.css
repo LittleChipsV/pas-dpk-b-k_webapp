@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Poppins:wght@700&display=swap');
+
+::selection {
+    background: #ec6090;
+    color: #fff;
+}
+
+body {
+    background: url("Images/Background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Fredoka', 'Poppins', sans-serif;
+    color: white;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#rtrn-container{
+    margin: 20px 1.75vw 0 2.25vw;
+    width: 26vw;
+    display: flex;
+    min-width: max-content;
+    max-width: 26vw;
+    height: max-content;
+    cursor: default;
+}
+
+#btn-return-to-hub{
+    background-color: transparent;
+    border: none;
+}
+
+#btn-return-to-hub:hover{
+    cursor: pointer;
+}
+
+#arrow{
+    font-size: 48px;
+    color: #fff;
+}
+
+#txt-return-to-hub{
+    margin: auto;
+    margin-left: 17px;
+    font-size: 27px;
+}
+
+.game-arena{
+    margin-top: 2vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-arena p{
+    font-size: 2.5rem;
+    margin: 10px 0 25px 0;
+}
+
+#board {
+    width: 450px;
+    height: 450px;
+    background-color: lightblue;
+    border: 2px solid rgb(155, 194, 207);
+    padding: 5px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board img {
+    width: 50px;
+    height: 50px;
+}
+
+#board img:hover{
+    cursor: grab;
+}
